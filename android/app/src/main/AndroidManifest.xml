@@ -5,7 +5,7 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         
-        <!-- Yeh line add karni zaroori hai v2 embedding ke liye -->
+        <!-- Yeh line v2 embedding ko enable karti hai -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
@@ -27,14 +27,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-
-            <!-- Deep Link Intent Filter -->
-            <intent-filter android:autoVerify="true">
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="teracloud" android:host="f" />
             </intent-filter>
 
         </activity>
