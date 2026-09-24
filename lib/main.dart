@@ -1,0 +1,20 @@
+name: teracloud_app
+description: Mayajaal video streaming app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chewie: ^1.8.0
+  video_player: ^2.8.5
+  app_links: ^6.0.0
+  http: ^1.2.1
+  flutter_file_downloader: ^1.2.1
+  cupertino_icons: ^1.0.8
+
+flutter:
+  uses-material-design: true
